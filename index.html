@@ -83,6 +83,26 @@
   .three-col {
     width: 93%;
   }
+  .col-pad {
+    padding: 1em;
+  }
+  .three-col-1,
+  .three-col-2,
+  .three-col-3 {
+    width: 31%;
+  }
+  .text-align {
+    text-align: unset;
+  }
+  .link-pad-1 {
+    padding-top: .6em;
+  }
+  .link-pad-2 {
+    padding-top: 3.1em;
+  }
+  .link-pad-3 {
+    padding-top: 6.85em;
+  }
   /* Mobile */
   @media only screen and (max-width: 599.8px) {
     .main-table {
@@ -97,6 +117,24 @@
     }
     .nest-thermo-pad {
       padding-top: 3em;
+    }
+    .three-col {
+      width: 100%;
+    }
+    .col-pad {
+      padding: 1.8em;
+    }
+    .three-col-1,
+    .three-col-2,
+    .three-col-3 {
+      width: 100%;
+    }
+    .text-align {
+      text-align: center;
+    }
+    .link-pad-2,
+    .link-pad-3 {
+      padding-top: .6em;
     }
   }
   </style>
@@ -1361,14 +1399,14 @@
                           <td>
                             <!-- Column 1 -->
                             <table
-                              width="31%"
+                              class="three-col-1"
                               cellspacing="0"
                               cellpadding="0"
                               role="presentation"
                               border="0"
                               align="left">
                               <tr>
-                                <td bgcolor="#ffffff" style="padding: 1em;">
+                                <td class="text-align col-pad" bgcolor="#ffffff">
                                   <table
                                     width="100%"
                                     cellspacing="0"
@@ -1392,7 +1430,7 @@
                                       </td>
                                     </tr>
                                     <tr>
-                                      <td style="padding-top: .6em;">
+                                      <td class="link-pad-1">
                                         <a href="#" style="font-size: 16px; font-weight: 600; color: #1a73e8;">Learn more</a>
                                       </td>
                                     </tr>
@@ -1419,14 +1457,14 @@
                             <!-- / Spacer -->
                             <!-- Column 2 -->
                             <table
-                              width="31%"
+                              class="three-col-2"
                               cellspacing="0"
                               cellpadding="0"
                               role="presentation"
                               border="0"
                               align="left">
                               <tr>
-                                <td bgcolor="#ffffff" style="padding: 1em;">
+                                <td class="text-align col-pad" bgcolor="#ffffff">
                                   <table
                                     width="100%"
                                     cellspacing="0"
@@ -1450,7 +1488,7 @@
                                       </td>
                                     </tr>
                                     <tr>
-                                      <td style="padding-top: 3.1em;">
+                                      <td class="link-pad-2">
                                         <a href="#" style="font-size: 16px; font-weight: 600; color: #1a73e8;">Learn more</a>
                                       </td>
                                     </tr>
@@ -1477,14 +1515,14 @@
                             <!-- / Spacer -->
                             <!-- Column 3 -->
                             <table
-                              width="31%"
+                              class="three-col-3"
                               cellspacing="0"
                               cellpadding="0"
                               role="presentation"
                               border="0"
                               align="left">
                               <tr>
-                                <td bgcolor="#ffffff" style="padding: 1em;">
+                                <td class="text-align col-pad" bgcolor="#ffffff">
                                   <table
                                     width="100%"
                                     cellspacing="0"
@@ -1508,7 +1546,7 @@
                                       </td>
                                     </tr>
                                     <tr>
-                                      <td style="padding-top: 6.85em;">
+                                      <td class="link-pad-3">
                                         <a href="#" style="font-size: 16px; font-weight: 600; color: #1a73e8;">Learn more</a>
                                       </td>
                                     </tr>
